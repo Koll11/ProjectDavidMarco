@@ -102,5 +102,85 @@ const animals = [
       weight: 150000,
       height: 4.9,
       length: 25
+    },
+    {
+      name: "Bald eagle",
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Haliaeetus_leucocephalus_%28Bald_Eagle%29.jpg",
+      speed: 160,
+      weight: 6.3,
+      height: 0.9,
+      length: 1.02
+    },
+    {
+      name: "Komodo dragon",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Komodo_dragon_2015.jpg",
+      speed: 20,
+      weight: 91,
+      height: 0.45,
+      length: 2.6
+    },
+    {
+      name: "Giraffe",
+      image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Giraffe_at_the_Brookfield_Zoo.jpg",
+      speed: 60,
+      weight: 1200,
+      height: 5.5,
+      length: 4.3
+    },
+    {
+      name: "Hummingbird",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ruby-throated_Hummingbird.jpg",
+      speed: 98,
+      weight: 0.0045,
+      height: 0.1,
+      length: 0.1
+    },
+    {
+      name: "Panda",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Giant_Panda_%28Ailuropoda_melanoleuca%29.jpg",
+      speed: 32,
+      weight: 120,
+      height: 0.9,
+      length: 1.9
+    },
+    {
+      name: "Sloth",
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Three-toed_sloth.jpg",
+      speed: 0.27,
+      weight: 6.3,
+      height: 0.68,
+      length: 0.8
+    },
+    {
+      name: "Giant Pacific Octopus",
+      image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Octopus.jpg",
+      speed: 40,
+      weight: 71,
+      height: 9,
+      length: 5.4
+    },
+    {
+      name: "Kangaroo",
+      image: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kangaroo.jpg",
+      speed: 70,
+      weight: 85,
+      height: 1.8,
+      length: 2.5
+    },
+    {
+      name: "Armadillo",
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Armadillo.jpg",
+      speed: 30,
+      weight: 8,
+      height: 0.3,
+      length: 0.9
+    },
+    {
+      name: "Platypus",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Platypus.jpg",
+      speed: 2,
+      weight: 2.4,
+      height: 0.3,
+      length: 0.5
     }
 ];
