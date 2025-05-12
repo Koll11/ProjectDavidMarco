@@ -1,7 +1,7 @@
 const animals = [
     {
       name: "Lion",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
+      image: "Assets/Images/Lion.jpg",
       speed: 80,
       weight: 190,
       height: 1.2,
@@ -9,7 +9,7 @@ const animals = [
     },
     {
       name: "African elephant",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg",
+      image: "Assets/Images/African_Elephant.jpg",
       speed: 40,
       weight: 6000,
       height: 3.2,
@@ -17,7 +17,7 @@ const animals = [
     },
     {
       name: "Cheetah",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Cheetah_Kruger.jpg",
+      image: "Assets/Images/Cheetah.jpg",
       speed: 130,
       weight: 72,
       height: 0.9,
@@ -25,7 +25,7 @@ const animals = [
     },
     {
       name: "Great White shark",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg",
+      image: "Assets/Images/Great_White_shark.jpg",
       speed: 56,
       weight: 1100,
       height: 1.3,
@@ -33,7 +33,7 @@ const animals = [
     },
     {
       name: "Golden eagle",
-      image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Aquila_chrysaetos_-_01.jpg",
+      image: "Assets/Images/Golden_Eagle.jpg",
       speed: 320,
       weight: 6.7,
       height: 0.5,
@@ -41,7 +41,7 @@ const animals = [
     },
     {
       name: "T-Rex",
-      image: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Tyrannosaurus_Rex_Holotype.jpg",
+      image: "Assets/Images/T-Rex.jpg",
       speed: 72,
       weight: 8000,
       height: 6.1,
@@ -49,7 +49,7 @@ const animals = [
     },
     {
       name: "Velociraptor",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/53/Velociraptor_dinoguy2.jpg",
+      image: "Assets/Images/Velociraptor.jpg",
       speed: 40,
       weight: 20,
       height: 2,
@@ -57,7 +57,7 @@ const animals = [
     },
     {
       name: "Horse",
-      image: "https://upload.wikimedia.org/wikipedia/commons/6/66/White_horse_in_winter.jpg",
+      image: "Assets/Images/Horse.jpg",
       speed: 71,
       weight: 420,
       height: 1.6,
@@ -65,7 +65,7 @@ const animals = [
     },
     {
       name: "Nile crocodile",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/58/NileCrocodile.jpg",
+      image: "Assets/Images/NileCrocodile.jpg",
       speed: 35,
       weight: 750,
       height: 0.7,
@@ -73,7 +73,7 @@ const animals = [
     },
     {
       name: "Dolphin",
-      image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Common_dolphin.jpg",
+      image: "Assets/Images/Dolphin.jpg",
       speed: 60,
       weight: 200,
       height: 0.9,
@@ -81,7 +81,7 @@ const animals = [
     },
     {
       name: "Peregrine falcon",
-      image: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Falco_peregrinus_good_-_Christopher_Watson.jpg",
+      image: "Assets/Images/Peregrine falcon.jpg",
       speed: 390,
       weight: 1.5,
       height: 0.4,
@@ -89,7 +89,7 @@ const animals = [
     },
     {
       name: "Argentinosaurus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Argentinosaurus_model.jpg",
+      image: "Assets/Images/Argentinosaurus.jpg",
       speed: 7,
       weight: 100000,
       height: 21,
@@ -97,7 +97,7 @@ const animals = [
     },
     {
       name: "Blue whale",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/52/Blue_Whale_002_body.jpg",
+      image: "Assets/Images/Blue_whale.jpg",
       speed: 48,
       weight: 150000,
       height: 4.9,
@@ -105,7 +105,7 @@ const animals = [
     },
     {
       name: "Bald eagle",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Haliaeetus_leucocephalus_%28Bald_Eagle%29.jpg",
+      image: "Assets/Images/Bald_eagle.jpg",
       speed: 160,
       weight: 6.3,
       height: 0.9,
@@ -113,7 +113,7 @@ const animals = [
     },
     {
       name: "Komodo dragon",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Komodo_dragon_2015.jpg",
+      image: "Assets/Images/Komodo dragon.jpg",
       speed: 20,
       weight: 91,
       height: 0.45,
@@ -121,7 +121,7 @@ const animals = [
     },
     {
       name: "Giraffe",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Giraffe_at_the_Brookfield_Zoo.jpg",
+      image: "Assets/Images/Giraffe.jpg",
       speed: 60,
       weight: 1200,
       height: 5.5,
@@ -129,7 +129,7 @@ const animals = [
     },
     {
       name: "Hummingbird",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ruby-throated_Hummingbird.jpg",
+      image: "Assets/Images/Hummingbird.jpg",
       speed: 98,
       weight: 0.0045,
       height: 0.1,
@@ -137,7 +137,7 @@ const animals = [
     },
     {
       name: "Giant Panda",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Giant_Panda_%28Ailuropoda_melanoleuca%29.jpg",
+      image: "Assets/Images/Giant Panda.JPG",
       speed: 32,
       weight: 120,
       height: 0.9,
@@ -145,7 +145,7 @@ const animals = [
     },
     {
       name: "Sloth",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Three-toed_sloth.jpg",
+      image: "Assets/Images/Sloth.jpg",
       speed: 0.27,
       weight: 6.3,
       height: 0.68,
@@ -153,7 +153,7 @@ const animals = [
     },
     {
       name: "Giant Pacific Octopus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Octopus.jpg",
+      image: "Assets/Images/Giant Pacific Octopus.jpg",
       speed: 40,
       weight: 71,
       height: 9,
@@ -161,7 +161,7 @@ const animals = [
     },
     {
       name: "Kangaroo",
-      image: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kangaroo.jpg",
+      image: "Assets/Images/Kangaroo.jpg",
       speed: 70,
       weight: 85,
       height: 1.8,
@@ -169,7 +169,7 @@ const animals = [
     },
     {
       name: "Armadillo",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Armadillo.jpg",
+      image: "Assets/Images/Armadillo.jpg",
       speed: 30,
       weight: 8,
       height: 0.3,
@@ -177,7 +177,7 @@ const animals = [
     },
     {
       name: "Platypus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Platypus.jpg",
+      image: "Assets/Images/Platypus.jpg",
       speed: 2,
       weight: 2.4,
       height: 0.3,
@@ -185,7 +185,7 @@ const animals = [
     },
     {
       name: "Narwhal",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Narwhal.jpg",
+      image: "Assets/Images/narwhal.jpg",
       speed: 30,
       weight: 800,
       height: 4.5,
@@ -193,7 +193,7 @@ const animals = [
     },
     {
       name: "Okapi",
-      image: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Okapi.jpg",
+      image: "Assets/Images/Okapi.jpg",
       speed: 37,
       weight: 350,
       height: 1.5,
@@ -201,7 +201,7 @@ const animals = [
     },
     {
       name: "Tapir",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Tapir.jpg",
+      image: "Assets/Images/Tapir.jpg",
       speed: 30,
       weight: 300,
       height: 1.2,
@@ -209,7 +209,7 @@ const animals = [
     },
     {
       name: "Manatee",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Manatee.jpg",
+      image: "Assets/Images/Manatee.jpg",
       speed: 24,
       weight: 590,
       height: 1.5,
@@ -217,7 +217,7 @@ const animals = [
     },
     {
       name: "Aye-aye",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Aye-aye.jpg",
+      image: "Assets/Images/Aye-aye.jpg",
       speed: 10,
       weight: 2.5,
       height: 0.4,
@@ -225,7 +225,7 @@ const animals = [
     },
     {
       name: "Capybara",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Capybara.jpg",
+      image: "Assets/Images/Capybara.jpg",
       speed: 35,
       weight: 50,
       height: 0.6,
@@ -233,7 +233,7 @@ const animals = [
     },
     {
       name: "Red panda",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Red_panda.jpg",
+      image: "Assets/Images/Red panda.jpg",
       speed: 24,
       weight: 6.2,
       height: 0.6,
@@ -241,7 +241,7 @@ const animals = [
     },
     {
       name: "Wombat",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Wombat.jpg",
+      image: "Assets/Images/Wombat.jpg",
       speed: 40,
       weight: 35,
       height: 0.8,
@@ -249,7 +249,7 @@ const animals = [
     },
     {
       name: "Tarsier",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Tarsier.jpg",
+      image: "Assets/Images/Tarsier.jpg",
       speed: 20,
       weight: 0.1,
       height: 0.2,
@@ -257,7 +257,7 @@ const animals = [
     },
     {
       name: "Quokka",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Quokka.jpg",
+      image: "Assets/Images/Quokka.jpg",
       speed: 30,
       weight: 4,
       height: 0.5,
@@ -265,7 +265,7 @@ const animals = [
     },
     {
       name: "Axolotl",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Axolotl.jpg",
+      image: "Assets/Images/Axolotl.jpg",
       speed: 0.1,
       weight: 0.05,
       height: 0.2,
@@ -273,23 +273,15 @@ const animals = [
     },
     {
       name: "Pangolin",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Pangolin.jpg",
+      image: "Assets/Images/Pangolin.jpg",
       speed: 2,
       weight: 10,
       height: 0.5,
       length: 1
     },
     {
-      name: "Okapi",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Okapi.jpg",
-      speed: 37,
-      weight: 350,
-      height: 1.5,
-      length: 2.5
-    },
-    {
       name: "Triceratops",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Triceratops_BW.jpg",
+      image: "Assets/Images/Triceratops.jpg",
       speed: 32,
       weight: 6000,
       height: 3,
@@ -297,7 +289,7 @@ const animals = [
     },
     {
       name: "Stegosaurus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Stegosaurus_BW.jpg",
+      image: "Assets/Images/Stegosaurus.jpg",
       speed: 6,
       weight: 5000,
       height: 4,
@@ -305,7 +297,7 @@ const animals = [
     },
     {
       name: "Brachiosaurus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Brachiosaurus_BW.jpg",
+      image: "Assets/Images/Brachiosaurus.jpg",
       speed: 10,
       weight: 56000,
       height: 12,
@@ -313,7 +305,7 @@ const animals = [
     },
     {
       name: "Spinosaurus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Spinosaurus_BW.jpg",
+      image: "Assets/Images/Spinosaurus.jpg",
       speed: 27,
       weight: 7000,
       height: 7,
@@ -321,7 +313,7 @@ const animals = [
     },
     {
       name: "Ankylosaurus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ankylosaurus_BW.jpg",
+      image: "Assets/Images/Ankylosaurus.jpg",
       speed: 10,
       weight: 6000,
       height: 1.7,
@@ -329,7 +321,7 @@ const animals = [
     },
     {
       name: "Mammoth",
-      image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Woolly_mammoth_Sergiodlarosa.jpg",
+      image: "Assets/Images/Mammoth.jpg",
       speed: 25,
       weight: 8000,
       height: 3.4,
@@ -337,7 +329,7 @@ const animals = [
     },
     {
       name: "Saber-toothed tiger",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Smilodon_fatalis.jpg",
+      image: "Assets/Images/Saber-toothed tiger.jpg",
       speed: 40,
       weight: 300,
       height: 1.1,
@@ -345,7 +337,7 @@ const animals = [
     },
     {
       name: "Allosaurus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Allosaurus_BW.jpg",
+      image: "Assets/Images/Allosaurus.jpg",
       speed: 34,
       weight: 2000,
       height: 4.5,
@@ -353,7 +345,7 @@ const animals = [
     },
     {
       name: "Pteranodon",
-      image: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Pteranodon_BW.jpg",
+      image: "Assets/Images/Pteranodon.jpg",
       speed: 80,
       weight: 25,
       height: 1.8,
@@ -361,7 +353,7 @@ const animals = [
     },
     {
       name: "Diplodocus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Diplodocus_BW.jpg",
+      image: "Assets/Images/Diplodocus.jpg",
       speed: 20,
       weight: 15000,
       height: 4.6,
@@ -369,7 +361,7 @@ const animals = [
     },
     {
       name: "Polar bear",
-      image: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ursus_maritimus_Polar_bear_with_cub_2.jpg",
+      image: "Assets/Images/Polar bear.jpg",
       speed: 40,
       weight: 450,
       height: 1.6,
@@ -377,7 +369,7 @@ const animals = [
     },
     {
       name: "Gorilla",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Gorilla_gorilla_gorilla4.jpg",
+      image: "Assets/Images/Gorilla.jpg",
       speed: 40,
       weight: 160,
       height: 1.7,
@@ -385,7 +377,7 @@ const animals = [
     },
     {
       name: "Leopard",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Leopard_africa.jpg",
+      image: "Assets/Images/Leopard.jpg",
       speed: 58,
       weight: 90,
       height: 0.8,
@@ -393,7 +385,7 @@ const animals = [
     },
     {
       name: "Orca",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Killerwhales_jumping.jpg",
+      image: "Assets/Images/Orca.jpg",
       speed: 56,
       weight: 5400,
       height: 2.6,
@@ -401,7 +393,7 @@ const animals = [
     },
     {
       name: "Sea turtle",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Green_turtle_swimming.jpg",
+      image: "Assets/Images/Sea turtle.jpg",
       speed: 35,
       weight: 200,
       height: 0.5,
@@ -409,7 +401,7 @@ const animals = [
     },
     {
       name: "Manta ray",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Manta_birostris-Thailand.jpg",
+      image: "Assets/Images/Manta ray.jpg",
       speed: 24,
       weight: 1600,
       height: 1.2,
@@ -417,7 +409,7 @@ const animals = [
     },
     {
       name: "Walrus",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Walrus.jpg",
+      image: "Assets/Images/Walrus.jpg",
       speed: 35,
       weight: 1200,
       height: 1.5,
@@ -425,7 +417,7 @@ const animals = [
     },
     {
       name: "Penguin",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Emperor_Penguin.jpg",
+      image: "Assets/Images/Penguin.jpg",
       speed: 10,
       weight: 30,
       height: 1.1,
@@ -433,7 +425,7 @@ const animals = [
     },
     {
       name: "Ostrich",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Common_ostrich.jpg",
+      image: "Assets/Images/Ostrich.jpg",
       speed: 70,
       weight: 150,
       height: 2.7,
@@ -441,7 +433,7 @@ const animals = [
     },
     {
       name: "Albatross",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Albatross.jpg",
+      image: "Assets/Images/Albatross.jpg",
       speed: 127,
       weight: 8.5,
       height: 1.2,
