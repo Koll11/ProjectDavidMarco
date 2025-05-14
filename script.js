@@ -467,31 +467,37 @@ function startGame() {
 }
 
 function renderGame(highlight = null, resultText = "") {
-    document.body.innerHTML = `
-        <h1 class="text-3xl font-bold text-blue-600 mb-6">Animal Battle</h1>
-        <div class="mb-4 text-xl">Score: <span id="score">${score}</span></div>
-        <div class="mb-4 text-lg font-semibold">Which animal has the highest <span class="text-blue-700">${currentCategory}</span>?</div>
-        <div class="flex w-full h-[60vh]">
+    const container = document.getElementById("game-container");
+    container.innerHTML = `
+        <h1 class="text-4xl font-bold text-blue-700 mb-4">🐾 Animal Battle 🐾</h1>
+        <div class="mb-2 text-xl">Streak: <span id="score" class="font-semibold text-green-600">${score}</span></div>
+        <div class="mb-6 text-lg font-medium text-gray-700">Which animal has the highest <span class="text-blue-800 underline">${currentCategory}</span>?</div>
+        
+        <div class="flex flex-col md:flex-row gap-6 justify-center items-stretch mb-4">
             ${currentAnimals.map((animal, idx) => `
                 <div 
                     id="animal-${idx}" 
-                    class="relative flex-1 h-full cursor-pointer transition-all duration-300 overflow-hidden
-                        ${highlight === idx ? (resultText === "Correct!" ? "animate-pulse-green ring-4 ring-green-400 z-10" : "animate-shake ring-4 ring-red-400 z-10") : ""}
+                    class="relative flex-1 min-w-[280px] max-w-md cursor-pointer rounded-lg overflow-hidden border-2 border-gray-200 bg-white shadow-lg card-hover transition-all duration-300
+                    ${highlight === idx ? (resultText === "Correct!" ? "animate-pulse-green ring-4 ring-green-400 z-10" : "animate-shake ring-4 ring-red-400 z-10") : ""}
                     "
                     onclick="chooseAnimal(${idx})"
                 >
-                    <img src="${animal.image}" alt="${animal.name}" class="object-cover w-full h-full brightness-90">
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <span class="bg-black bg-opacity-50 text-white text-3xl font-bold px-6 py-2 rounded">${animal.name}</span>
+                    <img src="${animal.image}" alt="${animal.name}" class="object-cover w-full h-64 md:h-full">
+                    <div class="absolute bottom-0 w-full bg-black bg-opacity-50 py-2 text-white text-2xl font-semibold">
+                        ${animal.name}
                     </div>
                 </div>
             `).join('')}
         </div>
-        <div id="result" class="mt-4 text-xl font-bold transition-all duration-500 ${resultText === "Correct!" ? "text-green-600 scale-110" : resultText ? "text-red-600 scale-110" : ""}">
+
+        <div id="result" class="mt-4 text-xl font-bold transition-all duration-500 
+            ${resultText === "Correct!" ? "text-green-600 scale-110" : resultText ? "text-red-600 scale-110" : ""}
+        ">
             ${resultText}
         </div>
     `;
 }
+
 
 window.chooseAnimal = function(idx) {
     const chosen = currentAnimals[idx];
