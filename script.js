@@ -473,17 +473,17 @@ function renderGame(highlight = null, resultText = "") {
         <div class="mb-2 text-xl">Streak: <span id="score" class="font-semibold text-green-600">${score}</span></div>
         <div class="mb-6 text-lg font-medium text-gray-700">Which animal has the highest <span class="text-blue-800 underline">${currentCategory}</span>?</div>
         
-        <div class="flex flex-col md:flex-row gap-6 justify-center items-stretch mb-4">
+        <div class="flex flex-col md:flex-row flex-wrap justify-center gap-6 px-4">
             ${currentAnimals.map((animal, idx) => `
                 <div 
                     id="animal-${idx}" 
-                    class="relative flex-1 min-w-[280px] max-w-md cursor-pointer rounded-lg overflow-hidden border-2 border-gray-200 bg-white shadow-lg card-hover transition-all duration-300
+                    class="relative max-w-lg w-full aspect-[16/10] cursor-pointer rounded-lg overflow-hidden border-2 border-gray-200 bg-white shadow-lg card-hover transition-all duration-300
                     ${highlight === idx ? (resultText === "Correct!" ? "animate-pulse-green ring-4 ring-green-400 z-10" : "animate-shake ring-4 ring-red-400 z-10") : ""}
                     "
                     onclick="chooseAnimal(${idx})"
                 >
-                    <img src="${animal.image}" alt="${animal.name}" class="object-cover w-full h-64 md:h-full">
-                    <div class="absolute bottom-0 w-full bg-black bg-opacity-50 py-2 text-white text-2xl font-semibold">
+                    <img src="${animal.image}" alt="${animal.name}" class="object-cover w-full h-full">
+                    <div class="absolute bottom-0 w-full bg-black bg-opacity-50 py-2 text-white text-2xl font-semibold text-center">
                         ${animal.name}
                     </div>
                 </div>
@@ -491,12 +491,13 @@ function renderGame(highlight = null, resultText = "") {
         </div>
 
         <div id="result" class="mt-4 text-xl font-bold transition-all duration-500 
-            ${resultText === "Correct!" ? "text-green-600 scale-110" : resultText ? "text-red-600 scale-110" : ""}
-        ">
+            ${resultText === "Correct!" ? "text-green-600 scale-110" : resultText ? "text-red-600 scale-110" : ""}">
             ${resultText}
         </div>
     `;
 }
+
+
 
 
 window.chooseAnimal = function(idx) {
