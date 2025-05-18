@@ -445,6 +445,7 @@ const categories = ["speed", "weight", "height", "length"];
 let score = 0;
 let currentAnimals = [];
 let currentCategory = "";
+let isTransitioning = false;
 
 function getRandomAnimal(exclude = []) {
     let filtered = animals.filter(a => !exclude.includes(a));
@@ -501,6 +502,8 @@ function renderGame(highlight = null, resultText = "") {
 
 
 window.chooseAnimal = function(idx) {
+    if (isTransitioning) return;
+    isTransitioning = true;
     const chosen = currentAnimals[idx];
     const other = currentAnimals[1 - idx];
     if (chosen[currentCategory] >= other[currentCategory]) {
@@ -514,11 +517,15 @@ window.chooseAnimal = function(idx) {
             currentAnimals = [currentAnimals[1], newAnimal];
             currentCategory = getRandomCategory();
             renderGame();
+            isTransitioning = false;
         }, 900);
     } else {
         renderGame(idx, "Wrong! Score reset.");
         score = 0;
-        setTimeout(startGame, 1200);
+        setTimeout(() => {
+            startGame();
+            isTransitioning = false;
+        }, 1200);
     }
 };
 
